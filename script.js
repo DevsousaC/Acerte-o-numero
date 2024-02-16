@@ -15,10 +15,11 @@ playButton.addEventListener('click', ()=>{
     game.style.display = "flex"
 })
 // game mechanics
+let count = 0
 let selected = document.querySelectorAll('.number')
 selected.forEach(button => {
     button.addEventListener('click', evt =>{
-        for(let count = 0; count <3; count++){
+        for(count; count <3; count++){
             evt.target.disabled = true;
             if(evt.target.value == randomNum){
                 evt.target.style.backgroundColor ="var(--correct-color)"
