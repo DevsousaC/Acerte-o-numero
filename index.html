@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/vars.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Quarto dia</title>
+</head>
+<body>
+    <main id="content">
+        <!-- Menu content -->
+        <div id="menu">
+            <h1>Jogo da adivinhação</h1>
+            <h2>Como funciona o jogo</h2>
+            <span>Um numero aleatorio é escolhido pela maquina.</span>
+            <span>Sua missão é descobrir esse numero em três tentativas</span>
+            <span>Vamos jogar?</span>
+            <button id="play">Clique aqui para jogar</button>
+        </div>
+        <!-- Game content -->
+        <div id="game">
+            <h1>Jogo da adivinhação</h1>
+            <span>Selecione um numero</span>
+            <div id="number-selection">
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="number" value="10">10</button>
+            </div>
+            <div id="result-content">
+                <span id="result"></span>
+            </div>
+            <div id="buttons">
+                <button type="submit" id="reset-button">Jogar de novo</button>
+                <button type="submit" id="return-menu-button">voltar ao menu</button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

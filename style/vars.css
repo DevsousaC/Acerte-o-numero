@@ -1,0 +1,10 @@
+:root{
+    /* Colors var */
+    --font-color: #f1f2eb;
+    --bg-color: #0D00A4;
+    --body-color: #2f2f2f;
+    --wrong-color: #FF0035;
+    --correct-color: green;
+    /* Cont var */
+    --font-family: "DM Sans", sans-serif;
+}
